@@ -1,3 +1,9 @@
-Info: Nothing to build for TestTypes
-Info: Nothing to build for DetermineCompilerVersion
-Info: Nothing to build for TestTypes
+11:27:10 **** Rebuild of configuration Debug for project TestSimplePointers ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TestSimplePointers.o" "..\\src\\TestSimplePointers.cpp" 
+..\src\TestSimplePointers.cpp: In function 'int main()':
+..\src\TestSimplePointers.cpp:78:39: warning: 'notInitPtr' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   78 |  cout << "\nUnitialized pointer: " << notInitPtr << endl;
+      |                                       ^~~~~~~~~~
+g++ -o TestSimplePointers.exe "src\\TestSimplePointers.o" 
+Info: Nothing to build for TestSimplePointers
