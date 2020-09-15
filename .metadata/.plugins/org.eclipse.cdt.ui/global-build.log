@@ -1,4 +1,3 @@
-10:45:37 **** Incremental Build of configuration Debug for project HelloWorld ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -std=c++14 -o "src\\HelloWorld.o" "..\\src\\HelloWorld.cpp" 
-g++ -o HelloWorld.exe "src\\HelloWorld.o" 
+Info: Nothing to build for TestTypes
+Info: Nothing to build for DetermineCompilerVersion
+Info: Nothing to build for TestTypes
