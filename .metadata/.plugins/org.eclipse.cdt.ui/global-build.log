@@ -1,9 +1,19 @@
-11:27:10 **** Rebuild of configuration Debug for project TestSimplePointers ****
+21:28:59 **** Rebuild of configuration Debug for project ArrayExample ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\TestSimplePointers.o" "..\\src\\TestSimplePointers.cpp" 
-..\src\TestSimplePointers.cpp: In function 'int main()':
-..\src\TestSimplePointers.cpp:78:39: warning: 'notInitPtr' may be used uninitialized in this function [-Wmaybe-uninitialized]
-   78 |  cout << "\nUnitialized pointer: " << notInitPtr << endl;
-      |                                       ^~~~~~~~~~
-g++ -o TestSimplePointers.exe "src\\TestSimplePointers.o" 
-Info: Nothing to build for TestSimplePointers
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayExample.o" "..\\src\\ArrayExample.cpp" 
+..\src\ArrayExample.cpp: In function 'void passArray1(int*)':
+..\src\ArrayExample.cpp:14:59: warning: 'sizeof' on array function parameter 'param' will return size of 'int*' [-Wsizeof-array-argument]
+   14 |  cout << "Array size when passing int[]: " << sizeof(param) << endl;
+      |                                                           ^
+..\src\ArrayExample.cpp:13:21: note: declared here
+   13 | void passArray1(int param[]) {
+      |                 ~~~~^~~~~~~
+..\src\ArrayExample.cpp: In function 'int main()':
+..\src\ArrayExample.cpp:78:18: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
+   78 |  char* bString = "Goodbye"; // Depreciated - don't do this anymore!
+      |                  ^~~~~~~~~
+..\src\ArrayExample.cpp:78:8: warning: unused variable 'bString' [-Wunused-variable]
+   78 |  char* bString = "Goodbye"; // Depreciated - don't do this anymore!
+      |        ^~~~~~~
+g++ -o ArrayExample.exe "src\\ArrayExample.o" 
+Info: Nothing to build for ArrayExample

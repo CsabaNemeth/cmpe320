@@ -5,7 +5,7 @@
 // Copyright   : Your copyright notice
 // Description : Examples of pointer and reference usage.
 //============================================================================
-
+Equila
 /*
  * This program shows some simple experiments with pointers and references.  It also demonstrates
  * the ability C++ provides to manipulate pointers and to poke around in memory, in places where you

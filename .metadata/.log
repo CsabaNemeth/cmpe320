@@ -113,3 +113,13 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.e
 
 !ENTRY org.eclipse.cdt.core 1 0 2020-09-15 11:26:15.303
 !MESSAGE Indexed 'TestSimplePointers' (1 sources, 132 headers) in 2.51 sec: 12,608 declarations; 20,977 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.018%)
+!SESSION 2020-09-15 21:27:58.741 -----------------------------------------------
+eclipse.buildId=4.16.0.I20200604-0540
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_CA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-09-15 21:28:56.002
+!MESSAGE Indexed 'ArrayExample' (1 sources, 132 headers) in 2.44 sec: 12,608 declarations; 20,977 references; 0 unresolved inclusions; 0 syntax errors; 6 unresolved names (0.018%)
