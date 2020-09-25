@@ -1,19 +1,15 @@
-21:28:59 **** Rebuild of configuration Debug for project ArrayExample ****
+Info: Nothing to build for Assignment1
+Info: Nothing to build for Assignment1
+Info: Nothing to build for Assignment1
+Info: Nothing to build for Assignment1
+Info: Nothing to build for Assignment1
+18:44:58 **** Incremental Build of configuration Debug for project Assignment1 ****
 Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\ArrayExample.o" "..\\src\\ArrayExample.cpp" 
-..\src\ArrayExample.cpp: In function 'void passArray1(int*)':
-..\src\ArrayExample.cpp:14:59: warning: 'sizeof' on array function parameter 'param' will return size of 'int*' [-Wsizeof-array-argument]
-   14 |  cout << "Array size when passing int[]: " << sizeof(param) << endl;
-      |                                                           ^
-..\src\ArrayExample.cpp:13:21: note: declared here
-   13 | void passArray1(int param[]) {
-      |                 ~~~~^~~~~~~
-..\src\ArrayExample.cpp: In function 'int main()':
-..\src\ArrayExample.cpp:78:18: warning: ISO C++ forbids converting a string constant to 'char*' [-Wwrite-strings]
-   78 |  char* bString = "Goodbye"; // Depreciated - don't do this anymore!
-      |                  ^~~~~~~~~
-..\src\ArrayExample.cpp:78:8: warning: unused variable 'bString' [-Wunused-variable]
-   78 |  char* bString = "Goodbye"; // Depreciated - don't do this anymore!
-      |        ^~~~~~~
-g++ -o ArrayExample.exe "src\\ArrayExample.o" 
-Info: Nothing to build for ArrayExample
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o insultgenerator_17cmn.o "..\\insultgenerator_17cmn.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o TestInsultGenerator.o "..\\TestInsultGenerator.cpp" 
+g++ -o Assignment1.exe TestInsultGenerator.o insultgenerator_17cmn.o 
+Info: Nothing to build for Assignment1
+Info: Nothing to build for Assignment1
+Info: Nothing to build for Assignment1
+Info: Nothing to build for Assignment1
+Info: Nothing to build for Assignment1

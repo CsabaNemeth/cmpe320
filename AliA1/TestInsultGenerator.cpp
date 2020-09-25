@@ -15,7 +15,7 @@
 
 using namespace std;
 
-#include "insultgenerator_17cmn.h"
+#include "insultgenerator_17AM143.h"
 
 int main() {
 
@@ -91,6 +91,8 @@ int main() {
 	return 0;
 
 } // end main
+
+
 
 
 
